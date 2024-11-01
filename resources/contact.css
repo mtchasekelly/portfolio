@@ -33,6 +33,11 @@ span {
     padding: 15px;
 }
 
+.forward-slash {
+    font-size: 14px;
+    padding: 0;
+}
+
 footer {
     margin-top: 290px;
     text-align: center;
