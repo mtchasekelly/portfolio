@@ -20,8 +20,6 @@ nav ul {
 /*********************************/
 
 .projects-container {
-    display: inline-flex;
-    align-items: center;
     width: 1000px;
     margin: auto; 
     margin-left: 155px;
@@ -31,10 +29,19 @@ nav ul {
     margin: 0;
 }
 
+.project-list li {
+    list-style-type: none;
+}
+
+.fa .fa-hand-o-right {
+    padding: 10px;
+}
 
 /*********************************/
 
+
 footer {
-    margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
+    padding: 15px;
 }
