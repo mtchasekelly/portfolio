@@ -1,0 +1,31 @@
+html, body { 
+    margin: 0;
+    height: auto;
+    border: 1px solid black;
+    font-family: Poppins, Tahoma, Geneva, sans-serif;
+}
+
+
+nav ul li {
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    font-size: 16px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-container {
+    width: 1000px;
+    margin: auto;
+   
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+}
