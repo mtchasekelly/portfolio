@@ -1,6 +1,6 @@
 html, body { 
     margin: 0;
-    height: auto;
+    height: 100%;
     border: 1px solid black;
     font-family: Poppins, Tahoma, Geneva, sans-serif;
 }
@@ -18,17 +18,24 @@ nav ul {
     justify-content: flex-end;
 }
 
-.about-container {
+.contact-information {
     width: 1000px;
-    margin: auto;   
+    margin: auto; 
 }
 
-.about-container-hobbies li {
-    list-style-type: disc;
+.contact-information li {
+    /*list-style-type: circle;*/
+    list-style-type: none;
+    line-height: 30px;
+}
+
+span {
+    padding: 15px;
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 305px;
     text-align: center;
-    padding: 15px;
 }
+
+
