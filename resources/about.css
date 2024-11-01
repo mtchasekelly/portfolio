@@ -5,6 +5,9 @@ html, body {
     font-family: Poppins, Tahoma, Geneva, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
 nav ul li {
     display: inline;
