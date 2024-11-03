@@ -47,15 +47,31 @@ nav ul {
     font-size: 60px;
 }
 
+#image-button {
+    border: none;
+    background-color: transparent;
+}
+
+#welcomeMessage {
+    display: none;
+    margin-left: 50px;
+
+}
+
 .skills-container {
     display: flex;
     justify-content: center;
-  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 25px;
+    
 }
 
 .skills-container .fab {
     margin-top: 130px;
     padding: 35px;
+    
 }
 
 /*
