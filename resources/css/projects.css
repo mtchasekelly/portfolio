@@ -57,7 +57,9 @@ figcaption {
     width: 598px;
 }
 
-
+.hideDetails {
+    display: none;
+}
 
 footer {
     margin-bottom: 20px;
