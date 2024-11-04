@@ -39,6 +39,7 @@ nav ul {
 
 
 .projects-container button {
+    background-color: transparent;    
     border: none;
 }
 
@@ -66,12 +67,11 @@ nav ul {
     width: 598px;
 }
 
+/*
 #project-one img {
     height: 290px;
 }
-
-
-
+*/
 
 footer {
     margin-bottom: 20px;
