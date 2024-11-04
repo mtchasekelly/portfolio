@@ -30,6 +30,30 @@ nav ul {
     list-style-type: disc;
 }
 
+#funFact {
+    display: none;
+}
+
+#funFactButton {
+    height: 40px;
+    width: 100px;
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    box-shadow: 4px 4px gray;
+    /*border-radius: 7.5%;*/
+    font-family: Poppins, Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+   
+button:active {
+    margin-top: 5px;
+    box-shadow: 0px 0px;
+}
+
 footer {
     margin-top: 50px;
     text-align: center;
