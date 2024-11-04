@@ -27,6 +27,7 @@ nav ul {
     width: 1000px;
     margin: auto; 
     margin-left: 155px;
+    margin-bottom: 180px;
 }
 
 .projects-container-text {
@@ -74,7 +75,6 @@ nav ul {
 */
 
 footer {
-    margin-bottom: 20px;
     text-align: center;
     padding: 15px;
 }
