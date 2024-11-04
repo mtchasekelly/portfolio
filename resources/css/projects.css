@@ -37,6 +37,11 @@ nav ul {
     list-style-type: none;
 }
 
+
+.projects-container button {
+    border: none;
+}
+
 .fa .fa-hand-o-right {
     padding: 10px;
 }
@@ -64,6 +69,9 @@ nav ul {
 #project-one img {
     height: 290px;
 }
+
+
+
 
 footer {
     margin-bottom: 20px;
