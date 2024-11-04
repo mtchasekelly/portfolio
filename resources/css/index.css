@@ -5,7 +5,6 @@ html, body {
     font-family: Poppins, Tahoma, Geneva, sans-serif;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -15,7 +14,6 @@ nav ul li {
     float: right;
     margin-right: 100px;
     font-size: 16px;
- 
 }
 
 nav ul {

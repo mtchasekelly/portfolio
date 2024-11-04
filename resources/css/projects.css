@@ -1,6 +1,6 @@
 html, body { 
     margin: 0;
-    height: 100%;
+    height: auto;
     border: 1px solid black;
     font-family: Poppins, Tahoma, Geneva, sans-serif;
 }
@@ -44,6 +44,19 @@ nav ul {
 }
 
 /*********************************/
+
+
+img {
+    height: 395px;
+    width: 598px;
+    border: 1px solid black;
+}
+
+figcaption {
+    border: 1px solid black;
+    width: 598px;
+}
+
 
 
 footer {
