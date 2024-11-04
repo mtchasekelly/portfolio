@@ -35,7 +35,7 @@ nav ul {
 }
 
 .intro-container-image img {
-    border: 2.5px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     height: 190px;
     width: 210px;
@@ -55,7 +55,7 @@ nav ul {
 
 #welcomeMessage {
     display: none;
-    margin-left: 50px;
+    margin-left: 45px;
 
 }
 
@@ -75,9 +75,3 @@ nav ul {
     
 }
 
-/*
-footer {
-    margin-top: 50px;
-    text-align: center;
-}
-*/
