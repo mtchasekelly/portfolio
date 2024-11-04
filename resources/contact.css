@@ -26,14 +26,20 @@ nav ul {
     margin: auto; 
 }
 
-.contact-information li {
+.contact-information-list {
     /*list-style-type: circle;*/
     list-style-type: none;
-    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-information ul li {
+    list-style-type: none;
+    text-align: center;
 }
 
 span {
-    padding: 15px;
+    padding: 10px;
 }
 
 .forward-slash {
