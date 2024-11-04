@@ -33,7 +33,7 @@ nav ul {
     margin: 0;
 }
 
-.project-list li {
+.projects-container ul {
     list-style-type: none;
 }
 
@@ -47,8 +47,8 @@ nav ul {
 
 .image-styles {
     display: block;
-    width: 598;
-    height: 395;
+    width: 598px;
+    height: 395px;
     border: 2px solid black;
 
 }
@@ -58,7 +58,11 @@ nav ul {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 700px;
+    width: 598px;
+}
+
+#project-one img {
+    height: 290px;
 }
 
 footer {
