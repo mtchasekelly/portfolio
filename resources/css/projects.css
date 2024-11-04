@@ -43,22 +43,24 @@ nav ul {
     padding: 10px;
 }
 
-/*********************************/
-
-
-img {
-    height: 395px;
-    width: 598px;
-    border: 1px solid black;
-}
-
-figcaption {
-    border: 1px solid black;
-    width: 598px;
-}
-
 .hideDetails {
     display: none;
+}
+
+.image-styles {
+    display: block;
+    width: 598;
+    height: 395;
+    border: 2px solid black;
+
+}
+
+.text-styles {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 700px;
 }
 
 footer {
