@@ -68,6 +68,14 @@ nav ul {
     width: 598px;
 }
 
+.projects-container h2 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    /*text-decoration: underline;*/
+}
+
+
 /*
 #project-one img {
     height: 290px;
