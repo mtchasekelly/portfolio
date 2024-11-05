@@ -27,7 +27,7 @@ nav ul {
     width: 1000px;
     margin: auto; 
     margin-left: 155px;
-    margin-bottom: 180px;
+    margin-bottom: 60px;
 }
 
 .projects-container-text {
@@ -57,7 +57,6 @@ nav ul {
     width: 598px;
     height: 395px;
     border: 2px solid black;
-
 }
 
 .text-styles {
@@ -65,16 +64,13 @@ nav ul {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     font-family: Poppins, Tahoma, Geneva, sans-serif;
+    /*font-style: italic;*/
     width: 598px;
 }
 
-.projects-container h2 {
-    font-size: 16px;
-    font-weight: normal;
-    text-align: left;
-    /*text-decoration: underline;*/
+button:hover {
+    cursor: pointer;
 }
-
 
 /*
 #project-one img {

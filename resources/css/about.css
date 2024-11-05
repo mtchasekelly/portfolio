@@ -24,6 +24,7 @@ nav ul {
 .about-container {
     width: 1000px;
     margin: auto;   
+    margin-top: 60px;
 }
 
 .about-container-hobbies li {
@@ -55,7 +56,6 @@ button:active {
 }
 
 footer {
-    margin-top: 50px;
     text-align: center;
     padding: 15px;
 }

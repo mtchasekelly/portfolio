@@ -31,6 +31,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .contact-information ul li {
@@ -48,7 +49,7 @@ span {
 }
 
 footer {
-    margin-top: 290px;
+    margin-top: 150px;
     text-align: center;
 }
 
