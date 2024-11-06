@@ -6,8 +6,11 @@ function funFact() {
             funFact.style.fontSize = '16px';
             funFact.style.fontFamily = 'Poppins, Tahoma, Geneva, sans-serif';   
             funFact.style.width = '350px';
-            funFact.style.border = '3px solid gray';
-            funFact.style.backgroundColor = 'skyblue';
+            funFact.style.borderTop = '1px solid #FFF';
+            funFact.style.borderLeft = '1px solid #FFF';
+            funFact.style.borderRight = '5.5px solid gray';
+            funFact.style.borderBottom = '5.5px solid gray';
+            funFact.style.backgroundColor = 'white';
             funFact.style.textAlign = 'center';
 
         } else {
