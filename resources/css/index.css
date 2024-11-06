@@ -81,3 +81,10 @@ nav ul {
     padding: 30px;    
 }
 
+a:focus, a:hover {
+    color: #2C6C99;
+}
+
+a:active {
+    color: #FFF;
+}

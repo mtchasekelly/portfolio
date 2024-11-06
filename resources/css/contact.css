@@ -59,6 +59,14 @@ span {
     padding: 0;
 }
 
+a:focus, a:hover {
+    color: #2C6C99;
+}
+
+a:active {
+    color: #FFF;
+}
+
 footer {
     margin-top: 130px;
     text-align: center;
