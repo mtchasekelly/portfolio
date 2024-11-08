@@ -126,6 +126,11 @@ a:active {
 
     }
 
+    .intro-container-image p {
+        width: 125px;
+        font-size: 0.75rem;
+    }
+
 }  
 
 @media only screen and (max-width: 768px) {
