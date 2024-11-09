@@ -12,7 +12,7 @@ My portfolio consists of three pages as well as a homepage. There is an About pa
 
 I added different forms of interactivity to my website. One of the ways I incorporated JavaScript was by creating a list of buttons where each button represents a project. Upon clicking each button, you are provided a screenshot of the project and a brief message describing it. Clicking the button again will cause the project details to disappear.
 
-![Example of Project](./resources/images/project-image.png);
+![Example of Project](./resources/images/project-image.png)
 
 ## How to Use (To Be Updated)
 
@@ -21,4 +21,4 @@ The technologies used to create this portfolio are HTML5, CSS3, and JavaScript. 
 
 ![Responsive Design](./resources/images/responsive-design.png)
 
-This example shows my portfolio website on a small tablet device (not to scale). I have also specified responsive design for larger sized tablets, mobile phones, and desktops. <br><br>
+This example shows my portfolio website on a small tablet device (not to scale). I have also specified responsive design for larger sized tablets, mobile phones, and desktops. <br>
