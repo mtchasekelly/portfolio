@@ -59,6 +59,11 @@ span {
     padding: 0;
 }
 
+footer {
+    margin-top: 130px;
+    text-align: center;
+}
+
 a:focus, a:hover {
     color: #2C6C99;
 }
@@ -67,9 +72,86 @@ a:active {
     color: #FFF;
 }
 
-footer {
-    margin-top: 130px;
-    text-align: center;
+
+
+@media only screen and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+    }
+
+    nav ul {
+        margin-left: 65px;
+        justify-content: center;
+    }
+
+    .contact-information {
+        width: 80%;
+    }
+
+    .contact-information h1 {
+        margin-top: 150px;
+    }
+
+    .contact-information-list {
+        width: 100%;
+        margin: 30px auto;
+        font-size: 0.75rem;
+    }
+
 }
 
 
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    nav ul {
+        margin-left: 60px;
+        justify-content: center;
+    }
+
+    .contact-information {
+        width: 80%;
+    }
+
+    .contact-information h1 {
+        margin-top: 150px;
+    }
+
+    .contact-information-list {
+        width: 100%;
+        margin: 30px auto;
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .container {
+        width: 100%;
+    }
+    
+    nav ul {
+        margin-left: 65px;
+        justify-content: center;
+    }
+
+    .contact-information {
+        width: 80%;
+    }
+    
+    .contact-information-list {
+        width: 100%;
+        font-size: 1rem;
+        margin: 30px auto;
+    }
+
+    .contact-information h1 {
+        margin-top: 150px;
+    }
+}
