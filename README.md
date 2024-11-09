@@ -21,4 +21,7 @@ The technologies used to create this portfolio are HTML5, CSS3, and JavaScript. 
 
 ![Responsive Design](./resources/images/responsive-design.png)
 
-This example shows my portfolio website on a small tablet device. I have also specified responsive design for larger sized tablets, mobile phones, and desktops.
+This example shows my portfolio website on a small tablet device (not to scale). I have also specified responsive design for larger sized tablets, mobile phones, and desktops.
+
+\ 
+\
