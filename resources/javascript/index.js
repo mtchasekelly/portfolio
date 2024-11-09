@@ -1,6 +1,6 @@
 function welcomeMessage() {
     const message = document.getElementById('welcomeMessage');
-    if (message.style.display === 'none') {
+    
         message.style.display = 'block';
         message.style.marginTop = '0';
         /*message.style.backgroundColor = '#C1B8AE';*/
@@ -8,7 +8,10 @@ function welcomeMessage() {
         message.style.border = '3px solid #8ABADD';
         message.style.width = '205px';
         message.style.textAlign = 'center';
-    } else {
-        message.style.display = 'none';
-    }
+
+}
+
+function exitWelcomeMessage() {
+    const exitMessage = document.getElementById('welcomeMessage');
+        exitMessage.style.display = 'none';
 }
