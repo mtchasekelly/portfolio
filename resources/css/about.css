@@ -15,7 +15,7 @@ nav ul li {
     display: inline;
     float: right;
     margin-right: 100px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 nav ul {
@@ -41,12 +41,10 @@ nav ul {
     height: 40px;
     width: 100px;
     background-color: #FFF;
-    /*border: 2px solid #FFF;*/
     border: 2px solid #FFF;
     box-shadow: 5px 5px gray;
-    /*border-radius: 7.5%;*/
     font-family: Poppins, Tahoma, Geneva, sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 footer {
@@ -71,7 +69,6 @@ a:focus, a:hover {
 a:active {
     color: #FFF;
 }
-
 
 @media only screen and (max-width: 480px) {
 
@@ -160,7 +157,6 @@ a:active {
         margin: 0 40px;
     }
 
-    /* */
     #funFact .about-container-funfact {
         width: 40px;
     }
@@ -176,7 +172,6 @@ a:active {
     }
 
 }  
-
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 

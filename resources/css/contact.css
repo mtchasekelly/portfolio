@@ -17,7 +17,7 @@ nav ul li {
     display: inline;
     float: right;
     margin-right: 100px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 nav ul {
@@ -32,7 +32,6 @@ nav ul {
 
 .contact-information-list {
     display: flex;   
-    /*list-style-type: circle;*/
     list-style-type: none;
     justify-content: center;
     margin-top: 150px;
@@ -72,8 +71,6 @@ a:active {
     color: #FFF;
 }
 
-
-
 @media only screen and (max-width: 480px) {
 
     .container {
@@ -100,8 +97,6 @@ a:active {
     }
 
 }
-
-
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 

@@ -1,5 +1,3 @@
-
-
 html, body { 
     background-color: #B9D9EB;
     border: 2px solid #8ABADD;
@@ -10,12 +8,6 @@ html, body {
     width: 100%;
 
 }
-
-/* 
-    Pink Theme:
-    background-color: #F4C2C2;
-    border: 1px solid #E78893;
-*/
 
 a {
     color: black;
