@@ -111,11 +111,6 @@ a:active {
     h2 {
         font-size: 0.75rem;
     }
-
-    .projects-container {
-        width: 90%;
-        margin: 0 10px;;
-    }
     
     .hideDetails figcaption {
         width: 240px;
@@ -136,16 +131,21 @@ a:active {
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     
+    nav ul {
+        margin-left: 60px;
+        justify-content: center;
+    }   
+    
     nav ul li, p, figcaption, footer {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
     
     h1 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     
     h2 {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .projects-container {
@@ -158,7 +158,7 @@ a:active {
     }
         
     .button-menu, .button-menu .fa {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
     
     #project-one figure img, #project-two figure img, #project-three figure img,
