@@ -23,6 +23,12 @@ nav ul {
     justify-content: flex-end;
 }
 
+footer {
+    margin-top: 60px;
+    padding: 15px;
+    text-align: center;
+}
+
 .about-container {
     width: 1000px;
     margin: auto;   
@@ -45,12 +51,6 @@ nav ul {
     box-shadow: 5px 5px gray;
     font-family: Poppins, Tahoma, Geneva, sans-serif;
     font-size: 0.875rem;
-}
-
-footer {
-    margin-top: 60px;
-    padding: 15px;
-    text-align: center;
 }
 
 button:hover {
@@ -110,16 +110,15 @@ a:active {
         font-size: 0.75rem;
     }
     
-    #funFactButton {
-        width: 75px;
-        font-size: 0.75rem;
-    }
-
     .about-container-funfact #funFact {
         width: 90px;
         font-size: 3rem;
     }
 
+    #funFactButton {
+        width: 75px;
+        font-size: 0.75rem;
+    }
 }  
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -157,10 +156,6 @@ a:active {
         margin: 0 40px;
     }
 
-    #funFact .about-container-funfact {
-        width: 40px;
-    }
-
     .about-container-intro li, .about-container-hobbies li, 
     .about-container-goals li, footer {
         font-size: 1rem;
@@ -171,6 +166,9 @@ a:active {
         font-size: 1rem;
     }
 
+    #funFact .about-container-funfact {
+        width: 40px;
+    }
 }  
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

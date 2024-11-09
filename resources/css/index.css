@@ -6,7 +6,6 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
-
 }
 
 a {
@@ -45,6 +44,20 @@ nav ul {
     margin: 10px;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 25px;   
+}
+
+.skills-container .fab {
+    margin-bottom: 10px;
+    padding: 30px;    
+}
+
 #name {
     font-family: Lora, Georgia, serif;
     font-size: 3.75rem;
@@ -60,21 +73,6 @@ nav ul {
     display: none;
     margin-left: 45px;
 
-}
-
-.skills-container {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    margin-left: 25px;
-    
-}
-
-.skills-container .fab {
-    margin-bottom: 10px;
-    padding: 30px;    
 }
 
 a:focus, a:hover {
@@ -100,22 +98,16 @@ a:active {
     }
     
     .intro-container-text {
-        margin-right: 120px;
-      
+        margin-right: 120px; 
     }
 
     .intro-container-text, nav ul li {
         font-size: 0.75rem;
     }
-    
-    #name {
-        font-size: 1rem;;
-    }
 
     .intro-container-image img {
         height: 125px;
         width: 150px;
-
     }
 
     .intro-container-image p {
@@ -123,6 +115,9 @@ a:active {
         font-size: 0.75rem;
     }
 
+    #name {
+        font-size: 1rem;;
+    }
 }  
 
 @media only screen and (max-width: 768px) {
@@ -136,22 +131,16 @@ a:active {
         font-size: 1rem;
     }
 
-
-    #name {
-        font-size: 2rem;;
-    }
-
     .intro-container {
         display: block;
     }    
-   
 
     .intro-container-image img {
         height: 150px;
         width: 170px;
-
     }
-
+    
+    #name {
+        font-size: 2rem;;
+    }
 }
-
-

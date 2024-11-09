@@ -16,22 +16,24 @@ nav ul li {
     float: right;
     margin-right: 100px;
     font-size: 1rem;
-
 }
 
 nav ul {
     display: flex;
     justify-content: flex-end;
-    
 }
 
 h3 {
     font-size: 1rem;
-
 }
 
 figcaption {
     background-color: #FFF;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
 }
 
 .projects-container {
@@ -78,12 +80,6 @@ figcaption {
     width: 598px;
 }
 
-footer {
-    text-align: center;
-    padding: 15px;
-    
-}
-
 button:hover {
     cursor: pointer;
 }
@@ -104,17 +100,8 @@ a:active {
         justify-content: center;
     }
 
-    .projects-container {
-       width: 90%;
-       margin: 0 10px;;
-    }
-
     nav ul li, p, figcaption, footer {
         font-size: 0.5rem;
-    }
-
-    .hideDetails figcaption {
-        width: 240px;
     }
 
     h1 {
@@ -125,33 +112,32 @@ a:active {
         font-size: 0.75rem;
     }
 
-    #project-one figure img, #project-two figure img, #project-three figure img,
-    #project-four figure img, #project-five figure img, #project-six figure img {
-        height: 150px;
+    .projects-container {
+        width: 90%;
+        margin: 0 10px;;
+    }
+    
+    .hideDetails figcaption {
         width: 240px;
     }
 
     .button-menu, .button-menu .fa {
         font-size: 0.5rem;
     }
-    
+
+    #project-one figure img, #project-two figure img, #project-three figure img,
+    #project-four figure img, #project-five figure img, #project-six figure img {
+        height: 150px;
+        width: 240px;
+    }
+
     /* Target Figcaption */
 }  
 
-
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-
-    .projects-container {
-        width: 90%;
-        margin: 0 40px;
-    }
     
     nav ul li, p, figcaption, footer {
         font-size: 0.75rem;
-    }
-    
-    .hideDetails figcaption {
-        width: 240px;
     }
     
     h1 {
@@ -161,34 +147,33 @@ a:active {
     h2 {
         font-size: 1rem;
     }
+
+    .projects-container {
+        width: 90%;
+        margin: 0 40px;
+    }
+
+    .hideDetails figcaption {
+        width: 240px;
+    }
+        
+    .button-menu, .button-menu .fa {
+        font-size: 0.75rem;
+    }
     
     #project-one figure img, #project-two figure img, #project-three figure img,
     #project-four figure img, #project-five figure img, #project-six figure img {
         height: 200px;
         width: 350px;
     }
-    
-    .button-menu, .button-menu .fa {
-        font-size: 0.75rem;
-    }
 
     /* Target Figcaption */
 }
         
-
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .projects-container {
-        width: 90%;
-        margin: 0 50px;
-    }
     
     nav ul li, p, figcaption, footer {
         font-size: 0.75rem;
-    }
-    
-    .hideDetails figcaption {
-        width: 240px;
     }
     
     h1 {
@@ -202,15 +187,24 @@ a:active {
     footer {
         margin-bottom: 20px;
     }
+
+    .projects-container {
+        width: 90%;
+        margin: 0 50px;
+    }
+
+    .hideDetails figcaption {
+        width: 240px;
+    }
+
+    .button-menu, .button-menu .fa {
+        font-size: 0.75rem;
+    }
     
     #project-one figure img, #project-two figure img, #project-three figure img,
     #project-four figure img, #project-five figure img, #project-six figure img {
         height: 300px;
         width: 500px;
-    }
-    
-    .button-menu, .button-menu .fa {
-        font-size: 0.75rem;
     }
 
     /* Target Figcaption */

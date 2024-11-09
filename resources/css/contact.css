@@ -5,7 +5,6 @@ html, body {
     font-family: Poppins, Tahoma, Geneva, sans-serif;  
     height: 100%;
     margin: 0;
-
 }
 
 a {
@@ -23,6 +22,15 @@ nav ul li {
 nav ul {
     display: flex;
     justify-content: flex-end;
+}
+
+span {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 130px;
+    text-align: center;
 }
 
 .contact-information {
@@ -49,18 +57,9 @@ nav ul {
     border: 6px double #8ABADD;;
 }
 
-span {
-    padding: 10px;
-}
-
 .forward-slash {
     font-size: 14px;
     padding: 0;
-}
-
-footer {
-    margin-top: 130px;
-    text-align: center;
 }
 
 a:focus, a:hover {
@@ -73,13 +72,13 @@ a:active {
 
 @media only screen and (max-width: 480px) {
 
-    .container {
-        width: 100%;
-    }
-
     nav ul {
         margin-left: 65px;
         justify-content: center;
+    }
+
+    .container {
+        width: 100%;
     }
 
     .contact-information {
@@ -95,20 +94,19 @@ a:active {
         margin: 30px auto;
         font-size: 0.75rem;
     }
-
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-
-    .container {
-        width: 100%;
-    }
 
     nav ul {
         margin-left: 60px;
         justify-content: center;
     }
 
+    .container {
+        width: 100%;
+    }
+
     .contact-information {
         width: 80%;
     }
@@ -122,31 +120,30 @@ a:active {
         margin: 30px auto;
         font-size: 0.75rem;
     }
-
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .container {
-        width: 100%;
-    }
     
     nav ul {
         margin-left: 65px;
         justify-content: center;
     }
 
+    .container {
+        width: 100%;
+    }
+
     .contact-information {
         width: 80%;
-    }
-    
-    .contact-information-list {
-        width: 100%;
-        font-size: 1rem;
-        margin: 30px auto;
     }
 
     .contact-information h1 {
         margin-top: 150px;
+    }
+
+    .contact-information-list {
+        width: 100%;
+        font-size: 1rem;
+        margin: 30px auto;
     }
 }
