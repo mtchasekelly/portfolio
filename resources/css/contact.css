@@ -5,6 +5,7 @@ html, body {
     font-family: Poppins, Tahoma, Geneva, sans-serif;  
     height: 100%;
     margin: 0;
+    width: 100%;
 }
 
 a {
@@ -29,13 +30,19 @@ span {
 }
 
 footer {
-    margin-top: 130px;
+    margin-top: 155px;
     text-align: center;
 }
 
 .contact-information {
     width: 1000px;
     margin: auto; 
+}
+
+.contact-information-list .list {
+    width: 45%;
+    margin: 0 auto;
+
 }
 
 .contact-information-list {
