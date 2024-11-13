@@ -95,13 +95,9 @@ a:active {
 
 @media only screen and (max-width: 480px) {
 
-    /* Should make page full screen 
-
     html, body {
         height: auto;
     }
-        
-    */
 
     nav ul {
         justify-content: center;  
@@ -114,33 +110,25 @@ a:active {
         padding: 15px;
     }
 
-    nav ul li, p, figcaption, footer {
-        font-size: 0.5rem;
+    p, figcaption, footer {
+        font-size: 0.75rem;
     }
 
     h1 {
-        font-size: 0.75rem;
+        font-size: 1.25rem;
     }
 
     h2 {
-        font-size: 0.75rem;
-    }
-    
-    .container {
-        width: 100%;
+        font-size: 1rem;
     }
 
-    .projects-container {
+    .projects-container, .project-container-text, .project-container-text-two {
         width: 80%;
-    }
-
-    .project-container-text, .project-container-text-two {
-        width: 80%;
-        margin: 0 auto;
+        margin: 0 20px;
     }
 
     .button-menu, .button-menu .fa {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 
     .image-styles {

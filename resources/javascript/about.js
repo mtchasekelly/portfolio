@@ -3,7 +3,7 @@ function funFact() {
         if (funFact.style.display === 'none') {
 
             funFact.style.display = 'block';
-            funFact.style.fontSize = '16px';
+            funFact.style.fontSize = '1rem';
             funFact.style.fontFamily = 'Poppins, Tahoma, Geneva, sans-serif';   
             funFact.style.width = '350px';
             funFact.style.borderTop = '1px solid #FFF';

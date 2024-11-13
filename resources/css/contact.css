@@ -78,8 +78,14 @@ a:active {
 @media only screen and (max-width: 480px) {
 
     nav ul {
-        margin-left: 65px;
-        justify-content: center;
+        justify-content: center;  
+        margin-right: 50px;
+    }
+
+    nav ul li {
+        font-size: 0.75rem;
+        margin: 0;
+        padding: 15px;
     }
 
     .container {
@@ -92,12 +98,22 @@ a:active {
 
     .contact-information h1 {
         margin-top: 150px;
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
     }
 
     .contact-information-list {
         width: 100%;
         margin: 30px auto;
         font-size: 0.75rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+        margin-bottom: 15px;
     }
 }
 
@@ -129,6 +145,11 @@ a:active {
         width: 100%;
         margin: 30px auto;
         font-size: 0.875rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+        margin-bottom: 15px;
     }
 }
 
