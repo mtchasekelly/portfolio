@@ -149,3 +149,41 @@ a:active {
         font-size: 1.5rem;
     }
 }
+
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+
+    /*
+    html, body {
+        height: auto;
+    }
+    */
+
+    nav ul {
+        justify-content: flex-end;
+        margin-left: 55px;
+    }
+    
+    .intro-container-text, nav ul li {
+        font-size: 1rem;
+    }
+
+    .intro-container {
+        display: block;
+        margin-top: 70px;
+        margin-left: 185px;
+    }    
+
+    .intro-container-image img {
+        height: 150px;
+        width: 170px;
+        margin-left: 105px;
+    }
+    
+    #name {
+        font-size: 1.75rem;
+    }
+}
+
+
+       
