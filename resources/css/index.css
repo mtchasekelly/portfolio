@@ -94,10 +94,11 @@ a:active {
         align-items: center;
         justify-content: center;
         height: auto;
+        margin-top: 95px;
     }
     
     .intro-container-text {
-        margin-right: 120px; 
+        margin: auto 0;
     }
 
     .intro-container-text, nav ul li {
@@ -107,6 +108,7 @@ a:active {
     .intro-container-image img {
         height: 125px;
         width: 150px;
+        margin-left: 18px;
     }
 
     .intro-container-image p {
@@ -132,14 +134,18 @@ a:active {
 
     .intro-container {
         display: block;
+        margin-top: 70px;
+        margin-left: 75px;
+     
     }    
 
     .intro-container-image img {
         height: 150px;
         width: 170px;
+        margin-left: 70px;
     }
     
     #name {
-        font-size: 2rem;;
+        font-size: 1.5rem;
     }
 }
