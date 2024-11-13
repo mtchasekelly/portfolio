@@ -110,11 +110,6 @@ a:active {
     .about-container-goals li, footer {
         font-size: 0.75rem;
     }
-    
-    .about-container-funfact #funFact {
-        width: 90px;
-        font-size: 1rem;
-    }
 
     #funFactButton {
         width: 75px;
