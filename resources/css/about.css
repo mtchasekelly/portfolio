@@ -164,13 +164,16 @@ a:active {
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     nav ul {
-        justify-content: center;  
-        margin-right: 50px;
+        margin-left: 65px;
+        justify-content: center;
     }
 
-    nav ul li {
-        margin: 0;
-        padding: 15px;
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
     }
 
     .about-container {
@@ -185,6 +188,7 @@ a:active {
     
     #funFactButton {
         width: 150px;
+        font-size: 1rem;
     }
 }
 
