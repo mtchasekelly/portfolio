@@ -146,12 +146,7 @@ a:active {
     nav ul {
         margin-left: 60px;
         justify-content: center;
-    }   
-    
-    nav ul li, p, figcaption, footer {
-        font-size: 1rem;
     }
-    
     h1 {
         font-size: 1.5rem;
     }
@@ -185,9 +180,10 @@ a:active {
 }
         
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    
-    nav ul li, p, figcaption, footer {
-        font-size: 1rem;
+     
+    nav ul {
+        margin-left: 65px;
+        justify-content: center;
     }
     
     h1 {
@@ -213,5 +209,9 @@ a:active {
 
     .button-menu, .button-menu .fa {
         font-size: 1rem;
+    }
+
+    footer {
+        margin-bottom: 0;
     }
 }     
